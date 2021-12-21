@@ -17,7 +17,7 @@ class Particle {
 // creation of a particle.
   createParticle() {
     noStroke();
-    fill('rgba(245, 198, 39, 0.4)');
+    fill('rgba(245, 198, 39, 0.9)');
     circle(this.x,this.y,this.r);
   }
 
