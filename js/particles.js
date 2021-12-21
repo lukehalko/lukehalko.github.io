@@ -59,7 +59,7 @@ function setup() {
 
 function draw() {
     console.log("******DRAWING******")
-    background('##F0EAD6');
+    background('#fffaeb');
     for(let i = 0;i<particles.length;i++) {
     particles[i].createParticle();
     particles[i].moveParticle();
