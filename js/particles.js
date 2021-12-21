@@ -1,6 +1,6 @@
 var canvas;
-var w = document.getElementById("particles").clientWidth;
-var h = document.getElementById("particles").clientHeight;
+var w = document.body.clientWidth;
+var h = document.body.clientHeight;
 
 // this class describes the properties of a single particle.
 class Particle {
@@ -17,7 +17,7 @@ class Particle {
 // creation of a particle.
   createParticle() {
     noStroke();
-    fill('rgba(200,169,169,0.5)');
+    fill('rgba(245, 198, 39, 0.4)');
     circle(this.x,this.y,this.r);
   }
 
@@ -59,7 +59,7 @@ function setup() {
 
 function draw() {
     console.log("******DRAWING******")
-    background('#ffffff');
+    background('##F0EAD6');
     for(let i = 0;i<particles.length;i++) {
     particles[i].createParticle();
     particles[i].moveParticle();

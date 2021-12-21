@@ -1,5 +1,5 @@
 h1{
-  font-size: 90px;
+  font-size: 100px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
 }
@@ -15,11 +15,12 @@ h6{
   top:75px;
 }
 
+#about{
+  font-size: 15pt;
+}
 #portrait{
   max-width: 100%;
   height: auto;
-  position:absolute;
-  top: 175px;
   border-radius: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

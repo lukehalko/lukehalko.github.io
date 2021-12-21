@@ -8,7 +8,7 @@
 <!--p5.js CDN-->
 <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
 
-<!--<script src="js/partyMode.js"></script>-->
+
 
 
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -18,35 +18,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body id="body" style="background-color: white;">
+<body>
     <div id="particles">
-        <div class="container-sm">
-            <div class="row"> 
-                <div class="col-6">
-                        <h1>LUKE HALKO</h1>
+        <div class="container-md">
+            <div class="d-flex flex-row">
+                <div class="d-flex align-items-start justify-content-start">
+                    <h1>LUKE HALKO</h1>
                 </div>
-                <div class="col-1">
-                    <div class="bottom">
-                        <h6>ABOUT</h6>
-                    </div>
+                <div class="p-3 d-flex align-items-end">
+                    <h6>ABOUT</h6>
                 </div>
-                <div class="col-1">
-                    <div class="bottom">
-                        <h6>PROJECTS</h6>
-                    </div>
-                </div>  
-            </div>
-            <div class="row">
-                <div class="col">
-                    <img id="portrait" src="images/selfportrait-orange-2.png" height="300" width="350">
+                <div class="p-3 d-flex align-items-end justify-content-end">
+                    <h6>PROJECTS</h6>
+                </div>
+                <div class="p-3 d-flex align-items-end">
+                    <a href="https://github.com/lukehalko">
+                        <img class="img-fluid" height="45"width="45"src="images/githublogo.png">
+                    </a>
+                </div>
+                <div class="p-3 d-flex align-items-end">
+                    <a href="https://www.linkedin.com/in/luke-halko-2b4b7a1a4/">
+                        <img class="img-fluid" src="images/linkedinlogo.png" height="45" width="45">
+                    </a>
                 </div>
             </div>
         </div>
+        <section class="p-5">
+            <div class="container">
+                <div class="d-flex flex-row">
+                    <div class="d-flex align-items-start justify-content-start">
+                        <img src="images/selfportrait-orange-2.png" class="img-fluid w-60" id="portrait">
+                    </div>
+                    <div class="p-5 d-flex align-items-center">
+                        <p id="about">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias iusto natus necessitatibus ea expedita. Ipsam sed atque excepturi necessitatibus libero ullam suscipit mollitia veritatis, sequi dolores fugit, provident minima cupiditate. Fugiat, quisquam! Praesentium fugit enim architecto cum pariatur, aliquid earum fuga qui. Corporis quos neque itaque fugiat, nam reprehenderit, facilis commodi, porro qui exercitationem tenetur quis deserunt maxime reiciendis quisquam hic totam? Quia quaerat, dolorem harum error possimus natus aliquid dolorum delectus perspiciatis odit, ad maiores ducimus tempore nisi maxime esse. Quibusdam et error ipsum totam exercitationem quod, repellat numquam aliquid ab, rem, deserunt nobis! Dignissimos praesentium ab est vel!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
-<!--Very odd, but this doesn't work if this script tag comes before the body-->
+<!--These script tags must come after the body-->
 <script src="js/collapse.js"></script>
-
 <script src="js/particles.js"></script>
 
 </html>
