@@ -49,7 +49,8 @@ let particles = [];
 
 function setup() {
   canvas = createCanvas(w, h);
-  canvas.parent('#particles')
+  let p = select('particles')
+  canvas.parent = p;
   canvas.position(0,0)
   canvas.style('z-index', '-1')
   for(let i = 0;i<width/10;i++){

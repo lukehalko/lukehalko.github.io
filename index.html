@@ -7,6 +7,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 <!--p5.js CDN-->
 <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+<!--aos.js CDN (css)-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!--aos.js CDN (js)-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
 
 
@@ -19,47 +24,96 @@
 </head>
 
 <body>
-    <div id="particles">
-        <div class="container-md">
-            <div class="d-flex flex-row">
-                <div class="d-flex align-items-start justify-content-start">
-                    <h1>LUKE HALKO</h1>
+            <div id="nav">
+                <div class="nav-content">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="d-flex align-items-center">
+                            <h1 id="title">LUKE HALKO</h1>
+                        </div>
+                        <div class="p-3 d-flex align-items-end">
+                            <h6>ABOUT</h6>
+                        </div>
+                        <div class="p-3 d-flex align-items-end justify-content-end">
+                            <h6>PROJECTS</h6>
+                        </div>
+                        <div class="p-3 d-flex align-items-end justify-content-center">
+                            <a href="https://github.com/lukehalko">
+                                <img class="p-1 img-fluid" height="45"width="45"src="images/githublogo.png">
+                            </a>
+                            <a href="https://www.linkedin.com/in/luke-halko-2b4b7a1a4/">
+                                <img class="p-1 img-fluid" src="images/linkedinlogo.png" height="45" width="45">
+                            </a>
+                            <a href="google.com">
+                                <img class="img-fluid" height="45" width="45" src="images/email-logo-png-1111.png">
+                            </a>
+                        </div>     
+                    </div>
                 </div>
-                <div class="p-3 d-flex align-items-end">
-                    <h6>ABOUT</h6>
-                </div>
-                <div class="p-3 d-flex align-items-end justify-content-end">
-                    <h6>PROJECTS</h6>
-                </div>
-                <div class="p-3 d-flex align-items-end justify-content-center">
-                    <a href="https://github.com/lukehalko">
-                        <img class="p-1 img-fluid" height="45"width="45"src="images/githublogo.png">
-                    </a>
-                    <a href="https://www.linkedin.com/in/luke-halko-2b4b7a1a4/">
-                        <img class="p-1 img-fluid" src="images/linkedinlogo.png" height="45" width="45">
-                    </a>
-                    <a href="google.com">
-                        <img class="img-fluid" height="45" width="45" src="images/email-logo-png-1111.png">
-                    </a>
-                </div>     
             </div>
-        </div>
-        <section class="p-5">
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>     
+        <div class="about p-5" data-aos="fade-left" data-aos-duration="2000" >
+            <div id="particles"></div>
             <div class="container">
                 <div class="d-flex flex-row">
                     <div class="d-flex align-items-start justify-content-start">
-                        <img src="images/selfportrait-orange-2.png" class="img-fluid w-60" id="portrait">
+                        <img data="awd" src="images/selfportrait-orange-2.png" class="img-fluid w-60" id="portrait">
                     </div>
                     <div class="p-5 d-flex align-items-center">
                         <p id="about">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias iusto natus necessitatibus ea expedita. Ipsam sed atque excepturi necessitatibus libero ullam suscipit mollitia veritatis, sequi dolores fugit, provident minima cupiditate. Fugiat, quisquam! Praesentium fugit enim architecto cum pariatur, aliquid earum fuga qui. Corporis quos neque itaque fugiat, nam reprehenderit, facilis commodi, porro qui exercitationem tenetur quis deserunt maxime reiciendis quisquam hic totam? Quia quaerat, dolorem harum error possimus natus aliquid dolorum delectus perspiciatis odit, ad maiores ducimus tempore nisi maxime esse. Quibusdam et error ipsum totam exercitationem quod, repellat numquam aliquid ab, rem, deserunt nobis! Dignissimos praesentium ab est vel!</p>
                     </div>
                 </div>
             </div>
+        </div>
+        <section class="projects p-5">
+            <div class="projects-header">
+                <h1>PROJECTS</h1>
+                <hr class="underline"/>
+            </div>
+            <div class="container projects-content">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="./images/selfportrait-nobackground-sepia.png" height="175"/>
+                        
+                    </div>
+                    <div class="col-10">
+                        <ul>
+                            <li class="list-item">
+                                <h6>Community-Comm</h6>
+                                <p class="project-bio">The recent spike in political polarization that we are seeing in the United States is closely tied to the spread of misinformation online.
+                                Commnuity-Comm is a Chrome Browser Plugin that takes a user-centered approach to this problem by guiding the user's news-browsing experience with various data-driven interventions, and studying the efficacy of each.
+                                The application is being built using JavaScript, HTML, CSS, and is maintained by a Firebase back-end.
+                                 </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <br/>
+                <div class="row">
+                    <div class="col">
+                        <img src="./images/selfportrait-nobackground-sepia.png" height="175"/>
+                    </div>
+                    <div class="col-10">
+                        <ul>
+                            <li class="list-item">
+                                <h6>UD CIS Course Scheduler</h6>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, placeat!</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
-    </div>
 </body>
 <!--These script tags must come after the body-->
+<script src="js/navbar.js"></script>
 <script src="js/collapse.js"></script>
 <script src="js/particles.js"></script>
-
 </html>
