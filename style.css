@@ -1,16 +1,19 @@
 html{
   scroll-behavior: smooth;
 }
+body{
+  background-color: #fffaeb;
+}
 h1{
   font-size: 60px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   text-shadow: 3pt 3pt 0pt rgb(224, 165, 0);
 }
 h6{
-  font-size: 17px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
 }
 
 .underline{
@@ -24,6 +27,8 @@ h6{
   box-shadow: 10px 10px 0px rgb(172, 117, 0);
   background-color: #f3e9d2ff;
   color: rgb(17, 10, 0);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
 }
 
 #about{
@@ -39,7 +44,7 @@ h6{
 #nav{
   overflow: hidden;
   background-color: transparent;
-  padding: 90px 10px; /* Large padding which will shrink on scroll (using JS) */
+  padding: 40px 10px; /* Large padding which will shrink on scroll (using JS) */
   transition: 0.4s; /* Adds a transition effect when the padding is decreased */
   position: fixed; /* Sticky/fixed navbar */
   width: 100%;
