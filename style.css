@@ -16,10 +16,6 @@ h6{
   font-weight: bolder;
 }
 
-.underline{
-  height:10px;
-}
-
 .list-item{
   list-style-type: none;
   padding: 20px;
@@ -31,8 +27,20 @@ h6{
   font-size: 20px;
 }
 
-#about{
+.thumbnail{
+  padding-left:40px;
+  padding-right:40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  background-color: rgb(48, 38, 19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#about-text{
   font-size: 15pt;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 #portrait{
   max-width: 100%;
@@ -56,6 +64,17 @@ h6{
   font-size: 80px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
-  text-shadow: 3pt 3pt 0pt rgb(224, 165, 0);
+  text-shadow: 3pt 3pt 0pt rgb(236, 177, 13);
 }
 
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+  text-shadow: 3pt 3pt 1pt rgb(224, 165, 0);
+  text-decoration: none;
+
+}

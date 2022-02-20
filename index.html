@@ -22,7 +22,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
+<a id="about"></a>
 <body>
             <div id="nav">
                 <div class="nav-content">
@@ -31,10 +31,10 @@
                             <h1 id="title">LUKE HALKO</h1>
                         </div>
                         <div class="p-3 d-flex align-items-end">
-                            <h6>ABOUT</h6>
+                            <a href="#about"><h6>ABOUT</h6></a>
                         </div>
                         <div class="p-3 d-flex align-items-end justify-content-end">
-                            <h6>PROJECTS</h6>
+                            <a href="#projects"><h6>PROJECTS</h6></a>
                         </div>
                         <div class="p-3 d-flex align-items-end justify-content-center">
                             <a href="https://github.com/lukehalko">
@@ -56,6 +56,7 @@
             <br/>
             <br/>
             <br/>
+            <br/>
         <div class="about p-5" data-aos="fade-left" data-aos-duration="2000" >
             <div id="particles"></div>
             <div class="container">
@@ -64,21 +65,25 @@
                         <img data="awd" src="images/selfportrait-orange-2.png" class="img-fluid w-60" id="portrait">
                     </div>
                     <div class="p-5 d-flex align-items-center">
-                        <p id="about">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias iusto natus necessitatibus ea expedita. Ipsam sed atque excepturi necessitatibus libero ullam suscipit mollitia veritatis, sequi dolores fugit, provident minima cupiditate. Fugiat, quisquam! Praesentium fugit enim architecto cum pariatur, aliquid earum fuga qui. Corporis quos neque itaque fugiat, nam reprehenderit, facilis commodi, porro qui exercitationem tenetur quis deserunt maxime reiciendis quisquam hic totam? Quia quaerat, dolorem harum error possimus natus aliquid dolorum delectus perspiciatis odit, ad maiores ducimus tempore nisi maxime esse. Quibusdam et error ipsum totam exercitationem quod, repellat numquam aliquid ab, rem, deserunt nobis! Dignissimos praesentium ab est vel!</p>
+                        <p id="about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias iusto natus necessitatibus ea expedita. Ipsam sed atque excepturi necessitatibus libero ullam suscipit mollitia veritatis, sequi dolores fugit, provident minima cupiditate. Fugiat, quisquam! Praesentium fugit enim architecto cum pariatur, aliquid earum fuga qui. Corporis quos neque itaque fugiat, nam reprehenderit, facilis commodi, porro qui exercitationem tenetur quis deserunt maxime reiciendis quisquam hic totam? Quia quaerat, dolorem harum error possimus natus aliquid dolorum delectus perspiciatis odit, ad maiores ducimus tempore nisi maxime esse. Quibusdam et error ipsum totam exercitationem quod, repellat numquam aliquid ab, rem, deserunt nobis! Dignissimos praesentium ab est vel!</p>
                     </div>
                 </div>
             </div>
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
         <section class="projects p-5">
             <div class="projects-header">
                 <h1 data-aos="fade-in" data-aos-duration="700">PROJECTS</h1>
-                <hr class="underline"/>
+                <a id="projects" class="anchor"></a>
             </div>
             <div class="container projects-content">
-                <div class="row" data-aos="fade-left" data-aos-duration="700">
-                    <div class="col-2">
-                        <img src="./images/selfportrait-nobackground-sepia.png" height="175"/>
-                        
+                <div class="row d-flex flex-row" data-aos="fade-left" data-aos-duration="700">
+                    <div class="col-2 d-flex flex-col align-items-center justify-content-start">
+                       <li class="list-item"> <a href="https://sensifylab.cis.udel.edu/"><img class="img-fluid w-80 sensify" src="./images/sensify-black.png" height="175"/></a></li>
                     </div>
                     <div class="col-10" >
                         <ul>
@@ -106,23 +111,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row" data-aos="fade-left" data-aos-duration="700">
-                    <div class="col-2">
-                        <img src="./images/selfportrait-nobackground-sepia.png" height="175"/>
-                        
-                    </div>
-                    <div class="col-10" >
-                        <ul>
-                            <li class="list-item">
-                                <h6>Community-Comm</h6>
-                                <p class="project-bio">The recent spike in political polarization that we are seeing in the United States is closely tied to the spread of misinformation online.
-                                Community-Comm is a Chrome Browser Plugin that takes a user-centered approach to this problem by guiding the user's news-browsing experience with various data-driven interventions, and studying the efficacy of each.
-                                The application is being built using JavaScript, HTML, CSS, and is maintained by a Firebase back-end. <a href="https://sensifylab.cis.udel.edu/">Check out our research lab!</a>
-                                 </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                
             </div>
         </section>
 </body>
