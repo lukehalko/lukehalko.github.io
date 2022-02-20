@@ -7,78 +7,115 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 <!--p5.js CDN-->
 <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+<!--aos.js CDN (css)-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!--aos.js CDN (js)-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<!--<script src="js/partyMode.js"></script>-->
+
+
 
 
 <link rel="stylesheet" type="text/css" href="style.css">
 <head>
-    <title>Luke Halko—Portfolio</title>
+    <title>Luke Halko</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+<a id="about"></a>
+<body>
+            <div id="nav">
+                <div class="nav-content">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="d-flex align-items-center">
+                            <h1 id="title">LUKE HALKO</h1>
+                        </div>
+                        <div class="p-3 d-flex align-items-end">
+                            <a href="#about"><h6>ABOUT</h6></a>
+                        </div>
+                        <div class="p-3 d-flex align-items-end justify-content-end">
+                            <a href="#projects"><h6>PROJECTS</h6></a>
+                        </div>
+                        <div class="p-3 d-flex align-items-end justify-content-center">
+                            <a href="https://github.com/lukehalko">
+                                <img class="p-1 img-fluid" height="45"width="45"src="images/githublogo.png">
+                            </a>
+                            <a href="https://www.linkedin.com/in/luke-halko-2b4b7a1a4/">
+                                <img class="p-1 img-fluid" src="images/linkedinlogo.png" height="45" width="45">
+                            </a>
+                            <a href="google.com">
+                                <img class="img-fluid" height="45" width="45" src="images/email-logo-png-1111.png">
+                            </a>
+                        </div>     
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+        <div class="about p-5" data-aos="fade-left" data-aos-duration="2000" >
+            <div id="particles"></div>
+            <div class="container">
+                <div class="d-flex flex-row">
+                    <div class="d-flex align-items-start justify-content-start">
+                        <img data="awd" src="images/selfportrait-orange-2.png" class="img-fluid w-60" id="portrait">
+                    </div>
+                    <div class="p-5 d-flex align-items-center">
+                        <p id="about-text">
+                            Hello! I'm Luke Halko, a junior Computer Science student at the University of Delaware who has special interests in web development, social computing, and data visualzation. Currently, I'm working on I work on Human-Computer Interaction research, more specifically studying the dissemination of misinformation online. I've been selected to be a part of the SNF Ithaca Student Leaders program at the Biden School of Public Policy and Administration, where I can continue to do research through the academic year. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
 
-<body id="body" style="background-color: white;">
-<div id="particles">
-    <div class="container-sm">
-        <div class="row">
-            <div class="col-sm-4 p-5 my-5 border">
-            <img src="lukelucy.JPG" height=325 width=300>
-            <h1 class="bio">Luke Halko</h1>
-            <p class="bio">Email: halko@udel.edu</p>
-            <a href="https://github.com/lukehalko/lukehalko.github.io">
-                <p class="bio">Click here for GitHub repository</p>
-            </a>
+        <section class="projects p-5">
+            <div class="projects-header">
+                <h1 data-aos="fade-in" data-aos-duration="700">PROJECTS</h1>
+                <a id="projects" class="anchor"></a>
             </div>
-            <div class="col-sm-8 p-5 my-5 bg-dark text-white">
-                <button class="collapsible">
-                    Sensify Lab: Community Comm
-                </button>
-                <div class="content">
-                    <p id="content">Research project with a focus on studying people's news-browsing habits with a broader goal of improving media literacy</p>
-                    <a href="https://sensifylab.cis.udel.edu/index.html">https://sensifylab.cis.udel.edu/index.html</a>
+            <br/>
+            <div class="container projects-content">
+                <div class="row d-flex flex-row" data-aos="fade-left" data-aos-duration="700">
+                    <div class="col">
+                        <ul>
+                            <li class="list-item">
+                                <h6>Community-Comm</h6>
+                                <p class="project-bio">The recent spike in political polarization that we are seeing in the United States is closely tied to the spread of misinformation online.
+                                Community-Comm is a Chrome Browser Plugin that takes a user-centered approach to this problem by guiding the user's news-browsing experience with various data-driven interventions, and studying the efficacy of each.
+                                The application is being built using JavaScript, HTML, CSS, and is maintained by a Firebase back-end. <a href="https://sensifylab.cis.udel.edu/">Check out our research lab!</a>
+                                 </p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <button class="collapsible">
-                    React Tic-Tac-Toe
-                </button>
-                <div class="content">
-                    <a href="https://lukehalko.github.io/tic-tac-toe">Link to game</a>
-                    <br/>
-                    <a href="https://github.com/lukehalko/tic-tac-toe">Link to GitHub repository</a>
+                <br/>
+                <div class="row" data-aos="fade-left" data-aos-duration="700">
+                    <div class="col">
+                        <ul>
+                            <li class="list-item">
+                                <h6>UD CIS Course Scheduler</h6>
+                                <p>A web application designed for Computer Science students at the University of Delaware that allows students to map out the courses they plan to take. Students can choose from one of seven concentrations, drag and drop desired courses into their schedule, visualize unfulfilled requirements, and export degree plans to their local file system
+                                    Built using ReactJS (Hooks), TypeScript, and Bootstrap.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <button class="collapsible">
-                    React NBA Player Comparison Tool
-                </button>
-                <div class="content">
-                    <a href="https://lukehalko.github.io/nba-player-comparison-tool">Link to app</a>
-                    <br />
-                    <a href="https://github.com/lukehalko/nba-player-comparison-tool">Link to GitHub repository</a>
-                </div>
+                
             </div>
-        </div>
-    </div>
-    <div class="container-sm">
-        <div class="row">
-            <div class="col-sm-6 p-5 my-5 bg-secondary text-white">
-                <h3>Change Log</h3>
-                <a href="changelog.html"><h5>Here</h5></a>
-            </div>
-            <div class="col-sm-6 p-5 my-5 bg-warning text-black">
-                <h3>TODO</h3>
-                <a href="todo.html"><h5>Here</h5></a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3">
-           <!-- <button onclick="partyMode()">Party Mode!</button> -->
-            </div>
-        </div>
-    </div>
-</div>
+        </section>
 </body>
-<!--Very odd, but this doesn't work if this script tag comes before the body-->
+<!--These script tags must come after the body-->
+<script src="js/navbar.js"></script>
 <script src="js/collapse.js"></script>
-
 <script src="js/particles.js"></script>
-
 </html>
