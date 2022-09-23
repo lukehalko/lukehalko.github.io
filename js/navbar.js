@@ -11,7 +11,7 @@ window.onload = scrollFunction
      document.getElementById("nav").style.backgroundColor = "#fffaeb"
 
    } else {
-     document.getElementById("navbar").style.paddingBottom = "0px";
+     document.getElementById("nav").style.paddingBottom = "0px";
      document.getElementById("title").style.fontSize = "80px";
      document.getElementById("nav").style.backgroundColor = "transparent"
    }
