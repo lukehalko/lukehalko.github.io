@@ -1,7 +1,6 @@
 # lukehalko.github.io
 
-Luke Halko 
+Luke Halko - Personal Webpage & Portfolio
 
 halko@udel.edu
 
-[Click here for GitHub Repository](https://github.com/lukehalko/lukehalko.github.io)
