@@ -14,15 +14,13 @@
 
 
 
-
-
 <link rel="stylesheet" type="text/css" href="style.css">
 <head>
     <title>Luke Halko</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<a id="about"></a>
+
 <body>
             <div id="nav">
                 <div class="nav-content">
@@ -31,90 +29,128 @@
                             <h1 id="title">LUKE HALKO</h1>
                         </div>
                         <div class="p-3 d-flex align-items-end">
-                            <a href="#about"><h6>ABOUT</h6></a>
+                            <a class="heading-link" href="#about"><h6>ABOUT</h6></a>
                         </div>
                         <div class="p-3 d-flex align-items-end justify-content-end">
-                            <a href="#projects"><h6>PROJECTS</h6></a>
+                            <a class="heading-link" href="#projects"><h6>PROJECTS</h6></a>
                         </div>
                         <div class="p-3 d-flex align-items-end justify-content-center">
-                            <a href="https://github.com/lukehalko">
+                            <a class="heading-link" href="https://github.com/lukehalko">
                                 <img class="p-1 img-fluid" height="45"width="45"src="images/githublogo.png">
                             </a>
                             <a href="https://www.linkedin.com/in/luke-halko-2b4b7a1a4/">
                                 <img class="p-1 img-fluid" src="images/linkedinlogo.png" height="45" width="45">
                             </a>
-                            <a href="google.com">
+                            <a href="mailto:halko@udel.edu">
                                 <img class="img-fluid" height="45" width="45" src="images/email-logo-png-1111.png">
                             </a>
                         </div>     
                     </div>
                 </div>
             </div>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-        <div class="about p-5" data-aos="fade-left" data-aos-duration="2000" >
-            <div id="particles"></div>
-            <div class="container">
-                <div class="d-flex flex-row">
-                    <div class="d-flex align-items-start justify-content-start">
-                        <img data="awd" src="images/selfportrait-orange-2.png" class="img-fluid w-60" id="portrait">
-                    </div>
-                    <div class="p-5 d-flex align-items-center">
-                        <p id="about-text">
-                            Hello! I'm Luke Halko, a junior Computer Science student at the University of Delaware who has special interests in web development, social computing, and data visualzation.
-                             Currently, I'm working on Human-Computer Interaction research, more specifically studying the dissemination of misinformation online. I've been selected to be a part of the SNF Ithaca Student Leaders program at the Biden School of Public Policy and Administration, where I can continue to do research through the academic year. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
 
-        <section class="projects p-5">
-            <div class="projects-header">
-                <h1 data-aos="fade-in" data-aos-duration="700">PROJECTS</h1>
-                <a id="projects" class="anchor"></a>
-            </div>
-            <br/>
-            <div class="container projects-content">
-                <div class="row d-flex flex-row" data-aos="fade-left" data-aos-duration="700">
-                    <div class="col">
-                        <ul>
-                            <li class="list-item">
-                                <a href="https://sensifylab.cis.udel.edu/"><h6>Community-Comm</h6></a>
-                                <p class="project-bio">The recent spike in political polarization that we are seeing in the United States is closely tied to the spread of misinformation online.
-                                Community-Comm is a Chrome Browser Plugin that takes a user-centered approach to this problem by guiding the user's news-browsing experience with various data-driven interventions, and studying the efficacy of each.
-                                The application is being built using JavaScript, HTML, CSS, and is maintained by a Firebase back-end (public GitHub repository pending). <strong><a href="https://sensifylab.cis.udel.edu/">Check out our research lab!</a></strong>
-                                 </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <br/>
-                <div class="row" data-aos="fade-left" data-aos-duration="700">
-                    <div class="col">
-                        <ul>
-                            <li class="list-item">
-                                <a href="https://ud-cisc275-f21.github.io/ud-cis-scheduler-team-4/"><h6>UD CIS Course Scheduler</h6></a>
-                                <p>A web application designed for Computer Science students at the University of Delaware that allows students to map out the courses they plan to take. Students can choose from one of seven concentrations, drag and drop desired courses into their schedule, visualize unfulfilled requirements, and export degree plans to their local file system.
-                                    For this project, I collaborated with two fellow students. <strong><a href="https://github.com/UD-CISC275-F21/ud-cis-scheduler-team-4"> See here for our GitHub repository.</a></strong>
-                                    Built using ReactJS (Hooks), TypeScript, and Bootstrap.
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="container">
                 
+                <div class="about p-5" data-aos="fade-left" data-aos-duration="2000" >
+
+                    <div id="particles"></div>
+
+                        <div id="about" class="d-flex flex-row">
+
+                            <div class="d-flex align-items-center">
+                                <div id="portrait-wrapper">
+                                    <img src="images/selfportrait-orange-2.png" id="portrait">
+                                </div>
+                                <div>
+                                    <p id="about-text">
+                                        Senior Computer Science student, graduating May 2023.
+                                        <br>
+                                        <br>
+                                        I build web applications powered by large datasets. 
+                                        <br>
+                                        <br>
+                                        Check out my work below, or <a href="./resources/LukeHalkoResume09_22.pdf" target="_blank"><strong>click here</strong></a> to download my resume!
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                </div>
+                <a id="projects" class="anchor"></a>
+                <section class="projects p-5">
+                    <div class="projects-header">
+                        <h1 data-aos="fade-in" data-aos-duration="700">PROJECTS</h1>
+                        
+                    </div>
+
+                    <br/>
+
+                    <div class="container projects-content">
+                        <div class="row d-flex flex-row" data-aos="fade-left" data-aos-duration="700">
+                            <div class="col">
+                                <ul>
+                                    <li class="list-item">
+                                        <a  href="https://sensifylab.cis.udel.edu/" target="_blank"><h6>Community Comm</h6></a>
+                                        <p class="project-bio">The recent spike in political polarization that we are seeing in the United States is closely tied to the spread of misinformation online.
+                                        Community Comm is a Chrome Browser Plugin that takes a user-centered approach to this problem by guiding the user's news-browsing experience with various data-driven interventions, and studying the efficacy of each.
+                                        The application is being built using JavaScript, HTML, CSS, and is supported by a Firebase back-end. <a href="https://sensifylab.cis.udel.edu/" target="_blank">Check out our research lab</a> and our <a href="https://sensifylab.cis.udel.edu/docs/2022-Khatiwada-CHI-Toward-Browser-based-Interventions-Misinformation-Online-Workshop.pdf" target="_blank">recent conference submission!</a>
+                                         </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <br/>
+
+                        <div class="row" data-aos="fade-right" data-aos-duration="700">
+                            <div class="col">
+                                <ul>
+                                    <li class="list-item">
+                                        <a href="https://halko.shinyapps.io/shiny_shot_chart" target="_blank"><h6>Shiny Shot Chart</h6></a>
+                                        <p>An interactive web application to visualize a chosen NBA player’s career shot-profile. 
+                                        The Shiny Shot Chart is powered by an RShiny backend and utilizes D3.js to render visualizations on the frontend. 
+                                        This is an individual project developed during the 2022 CompassRed Summer Internship period. Data sourced from <a href="https://stats.nba.com" target="_blank">stats.nba.com</a> via the <a href="https://github.com/swar/nba_api" target="_blank">NBA API</a> for Python. Source code and documentation can be found <a href="https://github.com/lukehalko/shiny_shot_chart" target="_blank">here</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="row" data-aos="fade-left" data-aos-duration="700">
+                            <div class="col">
+                                <ul>
+                                    <li class="list-item">
+                                        <a href="./resources/InternMissionProjectReport.pdf" target="_blank"><h6>Crime in Philadelphia</h6></a>
+                                        <p>An end-to-end data science effort to explore crime patterns in Philadelphia, PA over a 5-year span (2016-2020). Worked with a team of 3 other CompassRed interns to create a crime visualization dashboard and develop machine learning models to predict violent vs. non-violent crime based on various categorical data points regarding crime, poverty, and weather.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <br/>
+
+                        <div class="row" data-aos="fade-right" data-aos-duration="700">
+                            <div class="col">
+                                <ul>
+                                    <li class="list-item">
+                                        <a href="https://ud-cisc275-f21.github.io/ud-cis-scheduler-team-4/" target="_blank"><h6>UD CIS Course Scheduler</h6></a>
+                                        <p>A web application designed for Computer Science students at the University of Delaware that allows students to map out the courses they plan to take. Students can choose from one of seven concentrations, drag and drop desired courses into their schedule, visualize unfulfilled requirements, and export degree plans to their local file system.
+                                            For this project, I collaborated with two fellow students. <a href="https://github.com/UD-CISC275-F21/ud-cis-scheduler-team-4" target="_blank"> See here for our GitHub repository.</a>
+                                            Built using ReactJS (Hooks), TypeScript, and Bootstrap.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
             </div>
-        </section>
+
 </body>
 <!--These script tags must come after the body-->
 <script src="js/navbar.js"></script>

@@ -37,16 +37,29 @@ h6{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.heading-link{
+  text-decoration: none !important;
+}
+
+#about{
+  padding-top: 130px;
+}
+
 #about-text{
   font-size: 18pt;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+  padding-left:25px;
 }
 #portrait{
   max-width: 100%;
   height: auto;
   border-radius: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#portrait-wrapper {
+  padding-right: 25px;
+  max-width:50%;
 }
 
 #nav{
@@ -69,7 +82,8 @@ h6{
 
 a{
   color: black;
-  text-decoration: none;
+  text-decoration-style: dotted;
+  text-decoration-color: rgb(172, 117, 0);
 }
 
 a:hover{
